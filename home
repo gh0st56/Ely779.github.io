@@ -1,0 +1,1358 @@
+<html><head>
+<link href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&amp;family=Comic+Neue&amp;family=Courier+Prime&amp;family=Inconsolata&amp;family=Liu+Jian+Mao+Cao&amp;family=Amatic+SC:wght@700&amp;family=Sofia&amp;family=Oswald&amp;family=Patrick+Hand&amp;family=VT323&amp;display=swap" rel="stylesheet">
+<meta name="viewpot" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Web game by Fitz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="language" content="English">
+<meta name="charset" content="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+body{
+background: url(/storage/88F0-17F2/zedge/wallpaper/rick_and_morty-d367a0a2-e68f-47ea-889d-0bfe7f4a6db1.jpg);
+height: 2790px;
+}
+.hh{
+margin: 0px;
+font-family: 'VT323', monospace;
+letter-spacing: 1.2;
+font-size: 170%;
+border-radius: 8px 0px 0px 8px;
+padding: 10px;
+}
+.hhh{
+margin: 0px;
+font-family: 'VT323', monospace;
+letter-spacing: 1.2;
+font-size: 170%;
+border-radius: 0px 8px 8px 0px;
+padding: 10px;
+}
+#myDIV {
+margin: auto;
+margin-top: 20px;
+margin-bottom: 100px;
+border: 1px solid black;
+width: 170px;
+height: 70px;
+background: #FDEFE2;
+color: #1D245C;
+-webkit-animation: mymove 7s infinite; /* Chrome, Safari, Opera */
+animation: mymove 7s infinite;
+border-radius: 12px 4px;
+border: 2px solid transparent;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+50% {-webkit-transform: rotate(360deg);}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+50% {transform: rotate(360deg);}
+}
+.Elias{
+	font-size: 170%;
+	font-weight: 900;
+	text-align: center;
+	margin: 17px;
+	border-radius: 12px 4px;
+	font-family: 'Patrick Hand', cursive;
+}
+.e{
+	font-size: 120%;
+	font-size: Times;
+	background: #ffffff;
+	color: #002D62;
+   margin-top: 500px;
+   border-radius: 5px;
+   padding: 4px;
+   font-weight: bold;
+}
+.bioe{
+	margin-top: 5px;
+	font-size: 110%;
+	background: #002D62;
+	color: White;
+text-tranfrm: capitalize;
+txt-nt: 50px;
+boder: 1px solid #CB2026;
+border-radius: 12px 2px 12px 12px;
+text-align: center;
+border: 2px solid #002D62;
+padding: 4px;
+margin-top: 10px;
+font-weight: lighter;
+font-size: 115%;
+	font-weight: lighter;
+}
+.f{
+	font-size: 120%;
+	font-size: Times;
+	background: #1D4591;
+	color: White;
+   margin-top: 500px;
+   border-radius: 5px;
+   padding: 4px;
+   font-weight: bold;
+}
+.biof{
+	margin-top: 5px;
+	font-size: 110%;
+	background: #ffffff;
+	color: #1D4591;
+text-transfom: capitalize;
+text-nt: 50px;
+borer: 1px solid White;
+border-radius: 12px 2px 12px 12px;
+text-align: center;
+border: 2px solid #ffffff;
+padding: 4px;
+margin-top: 10px;font-weight: lighter;
+font-size: 115%;
+	font-weight: lighter;
+}
+.j{
+	font-size: 120%;
+	font-size: Times;
+	background: #A3080C;
+	color: #F9F6EF;
+   margin-top: 500px;
+   border-radius: 5px;
+   padding: 4px;
+   font-weight: bold;
+}
+.bioj{
+	margin-top: 5px;
+	font-size: 110%;
+	background: #A3080C;
+	color: #ffffff;
+text-transfrm: capitalize;
+text-nt: 50px;
+borer: 1px solid White;
+border-radius: 12px 2px 12px 12px;
+text-align: center;
+border: 4px solid #A3080C;
+padding: 4px;
+margin-top: 10px;font-weight: lighter;
+font-size: 115%;
+	font-weight: lighter;
+}
+.g{
+	font-size: 120%;
+	font-size: Times;
+	background: #FFCA02;
+	color: #EE1D23;
+   margin-top: 500px;
+   border-radius: 5px;
+   padding: 4px;
+   font-weight: bold;
+}
+.biog{
+	margin-top: 5px;
+	font-size: 110%;
+	background: #25282A;
+	color: #FFCA02;
+text-transfrm: capitalize;
+text-nt: 50px;
+borer: 1px solid White;
+border-radius: 12px 2px 12px 12px;
+text-align: center;
+border: 4px solid #1F2020;
+padding: 4px;
+margin-top: 10px;font-weight: lighter;
+font-size: 115%;
+	font-weight: lighter;
+}
+.s{
+	font-size: 120%;
+	font-size: Times;
+	background: #CC071E;
+	color: #FFC906;
+   margin-top: 500px;
+   border-radius: 5px;
+ padding: 4.5px;
+	font-weight: bold;
+}
+.bios{
+	margin-top: 5px;
+	font-size: 110%;
+	background: #FFCA02;
+	color: #CC071E;
+text-transorm: capitalize;
+text-nt: 50px;
+borer: 1px solid White;
+border-radius: 12px 2px 12px 12px;
+text-align: center;
+border: 2px solid #FFCA02;
+padding: 4px;
+margin-top: 10px;font-weight: lighter;
+font-size: 115%;
+	font-weight: lighter;
+}
+.bh{
+		font-size: 95%;
+	background: #777ca8;
+	color: #ffffff;
+   margin-top: 500px;
+   margin-right: 0;
+   margin-left: 0;
+   border: 2px solid #ffffff;
+   border-radius: 5px;
+ padding: 4px;
+}
+.lie{
+		font-size: 120%;
+	font-size: Times;
+	background: #ffffff;
+	color: #1DB954;
+   border-radius: 5px;
+ padding: 4px;
+}
+.biop{
+	margin-top: 5px;
+	font-size: 110%;
+	background: #Afbadc;
+	color: #ffffff;
+text-nt: 50px;
+borer: 1px solid White;
+border-radius: 12px 2px 12px 12px;
+text-align: center;
+border: 2px solid #ffffff;
+padding: 4px;
+margin-top: 10px;
+font-size: 15px;
+font-weight: bold;
+}
+.imp {
+	margin-left: 10px;
+  display: inline-block;
+  border-radius: 12px;
+background: #FFFC00;
+border: none;
+  color: #CC1E4A;
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+  width: 190px;
+  transition: all 0.5s;
+  cursor: pointer;
+  marin: 15px;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+margin-left: 80px;
+margin-top: 150px;
+visibility: initial;
+}
+.imp span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.imp span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.imp:hover span {
+  padding-right: 25px;
+}
+
+.imp:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.lie1{
+	background: #ffffff;
+	color: #002D62;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 5px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie1a{
+	background: #ffffff;
+	color: #002D62;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 5px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie2{
+	font-size: 115%;
+	font-size: Times;
+background: #EC058E;
+color: #351858;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 10px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+   border: 1px solid #351858;
+}
+.lie2a{
+	font-size: 115%;
+	font-size: Times;
+background: #EC058E;
+color: #351858;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 10px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+   border: 1px solid #351858;
+}
+.lie3{
+	font-size: 120%;
+	font-size: Times;
+background: #73c0f4;
+color: White;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+   border: 1px solid white;
+}
+.lie4{
+	font-size: 120%;
+	font-size: Times;
+	background: #003A70;
+	color: #FFCB05;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 5px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 10px;
+   border: 1px solid #FFCB05;
+}
+.lie5{
+	font-size: 120%;
+	font-size: Times;
+	background: #a882c1;
+	color: #ffffff;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 5px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 65px;
+}
+.lie5a{
+	font-size: 120%;
+	font-size: Times;
+	background: #a882c1;
+	color: #ffffff;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 5px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 65px;
+}
+.lie6{
+	font-size: 120%;
+	font-size: Times;
+	background: #FE5000;
+	color: #ffffff;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 5px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 10px;
+}
+.lie6a{
+	font-size: 120%;
+	font-size: Times;
+	background: #FE5000;
+	color: #ffffff;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 5px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 10px;
+}
+.lie7{
+	font-size: 120%;
+	font-size: Times;
+	background: #FFE681;
+	color: #25282A;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie8{
+	font-size: 120%;
+	font-size: Times;
+	background: #00704A;
+	color: #000000;
+ 	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie9{
+	font-size: 120%;
+	font-size: Times;
+	background: #1DB954;
+	color: #ffffff;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie10{
+	font-size: 120%;
+	font-size: Times;
+	background: #DFE3EE;
+	color: #4267B2;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie11{
+	font-size: 120%;
+	font-size: Times;
+	background: #4dd8ad;
+	color: #F5F8FA;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie12{
+	font-size: 115%;
+	font-size: Times;
+	background: #FDEFE2;
+	color: #1D245C;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 65px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie12a{
+	font-size: 115%;
+	font-size: Times;
+	background: #FDEFE2;
+	color: #1D245C;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 65px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie13{
+	font-size: 120%;
+	font-size: Times;
+	background: #ED008C;
+	color: #ffffff;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie14{
+	font-size: 120%;
+	font-size: Times;
+	background: #FFF200;
+	color: #005542;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 65px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie15{
+	font-size: 120%;
+	font-size: Times;
+	background: #AAB8C2;
+	color: white;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie16{
+	font-size: 120%;
+	font-size: Times;
+	background: #0078FF;
+	color: White;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 65px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+   border: 1px solid White;
+}
+.lie17{
+	font-size: 120%;
+	font-size: Times;
+	background: #FFB900;
+	color: #ffffff;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 65px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie18{
+	font-size: 120%;
+	font-size: Times;
+	background: #FF9900;
+	color: Black;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie19{
+	font-size: 120%;
+	font-size: Times;
+	background: #A3080C;
+	color: #ffffff;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 10px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+   border: 1px solid white;
+}
+.lie20{
+	font-size: 120%;
+	font-size: Times;
+	background: #366251;
+	color: #C6BEB0;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie21{
+	font-size: 120%;
+	font-size: Times;
+background: #4AC959;
+color: #455A64;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 65px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie21a{
+	font-size: 120%;
+	font-size: Times;
+background: #4AC959;
+color: #455A64;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 65px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie22{
+	font-size: 120%;
+	font-size: Times;
+background: #ffffff; /* For browsers that do not support gradients */ 
+background: -webkit-linear-gradient(left top, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); /* Standard syntax (must be last) */
+	color: White;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie23{
+	font-size: 120%;
+	font-size: Times;
+	background: #FAD7BD;
+	color: #A3080C;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 65px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie23a{
+	font-size: 120%;
+	font-size: Times;
+	background: #FAD7BD;
+	color: #A3080C;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 65px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie24{
+	font-size: 120%;
+	font-size: Times;
+	background: #004C6C;
+	color: #FFC906;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+   border: 1px solid #FFC906;
+}
+.lie24a{
+	font-size: 120%;
+	font-size: Times;
+	background: #004C6C;
+	color: #FFC906;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+   border: 1px solid #FFC906;
+}
+.lie25{
+	font-size: 120%;
+	font-size: Times;
+	background: #024CA1;
+	color: White;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+
+}
+.lie26{
+	font-size: 120%;
+	font-size: Times;
+	background: #000000;
+	color: White;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie27{
+	font-size: 120%;
+	font-size: Times;
+	background: #D21242;
+	color: #ffffff;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.lie28{
+	font-size: 120%;
+	font-size: Times;
+	background: #0079C1;
+	color: #00457C;
+	font-size: 115%;
+   margin-top: 10px;
+   margin-right: 0px;
+   border-radius: 5px;width: 65px;
+   padding: 5px;
+   margin-left: 5px;
+   border: 1px solid #00457C;
+}
+h{
+	margin: 15px;
+}
+.dh{
+	font-size: 15px;
+	font-weight: bold;
+text-transform: uppercase;
+font-family: 'Comic Neue', cursive;
+}
+.dub{
+	font-wght: bold;
+}
+/* unvisited link */
+a:link {
+color: #666666;
+text-decoration: none;
+margin: 0;
+}
+/* visited link */
+a:visited {
+	 color: #666666;
+text-decoration: none;
+margin: 0;
+}
+/* mouse over link */
+a:hover {
+	 color: #666666;
+text-decoration: none;
+margin: 0;
+}
+/* selected link */
+a:active {
+	 color: #666666;
+text-decoration: none;
+margin: 0;
+}
+.crights{
+margin-left: -10px;
+	margin-top: 100px;
+border: 3px solid black;
+Padding: 4px;
+	border-color: #ffffff transparent transparent transparent;
+background: #0444bf;
+width: 353px;
+}
+.gt{
+color: #666666;
+text-align: center;
+text-decoration: none;
+font-weight: bold;
+border: 1px solid white;
+background: white;
+border-radius: 8px;
+padding: 5px;
+}
+.gt:hover{
+color: #666666;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+font-weight: bold;
+}
+</style>
+</head>
+<body style="text-transform: uppercase;">
+<br>
+<h id="C1" style="color: #8ed3f4; background: #8a8683;" class="hh"><b>A GAME </b></h><h style="color: #8a8683; background: #8ed3f4;" class="hhh"> <b>MADE BY</b></h>
+<div id="myDIV">
+<p class="Elias">ELIAS</p>
+</div>
+<div class"had" style="font-family: 'Oswald', sans-serif;">
+<h class="e" style="font-family: 'Comic Neue', cursive;">English 🇬🇧</h>
+<p class="bioe">If you are a friend or a best friend of the creator, so you are going to find your name in that game!</p>
+<h class="s" style="font-family: 'Comic Neue', cursive;">Español 🇪🇸</h>
+<p class="bios">Si eres un amigo o el mejor amigo del creador, ¡entonces encontrarás tu nombre en ese juego!</p>
+<h class="f" style="font-family: 'Comic Neue', cursive;">français 🇫🇷</h>
+<p class="biof">Si vous êtes un(e) ami(e) ou un(e) meilleur(e) ami(e) du créateur, vous allez donc trouver votre nom dans ce jeu!</p>
+<h class="g" style="font-family: 'Comic Neue', cursive;">German 🇩🇪</h>
+<p class="biog">SI VOUS ÊTES UN(E) AMI(E) OU UN(E) MEILLEUR(E) AMI(E) DU CRÉATEUR, VOUS ALLEZ DONC TROUVER VOTRE NOM DANS CE JEU!</p>
+<h class="j" style="font-family: 'Comic Neue', cursive;">日本語 🇯🇵</h>
+<p class="bioj"><big>あなたが友人またはクリエイターの親友であれば、そのゲームであなたの名前を見つけるでしょう！</big></p>
+</div>
+<br>
+<br>
+<h style="letter-spacing: 2.9;font-family: 'Comic Neue', cursive;" class="bh"><b>How to play|Comment jouer</b></h>
+<div class="biop">
+<p>1.Click the button | Cliquez sur le bouton "CLICK ME"</p>
+<p>2.Write a name (Either a name or a family name, but not both!) | Ecrivez un prénom(Soi un nom ou un prénom, mais pas tout les deux !)</p>
+<p>3.Click OK | Cliquez sur OK</p>
+</div>
+<br>
+<br>
+<h style="letter-spacing: 2.9;font-family: 'Comic Neue', cursive;" class="bh"><b>Notices</b></h>
+<div class="biop">
+<p>1.A wifi or mobile data is required to try this game out | Une connexion WiFi ou mobile est nécessaire pour essayer ce jeu</p>
+<p>2.You can copy available names then past them in the place holder | Vous pouvez copier les noms disponibles puis les passer dans le porte-endroit</p>
+<p>3.All rights are protected from <a style="color: #edf259;" href="Codepen.io/Fitzely">Codepen.io</a> &amp; <a style="color: #edf259;" href="GitHub.co/Ely777" ">GitHub</a> | Touts les droits sont protégés</p>
+</div>
+<br>
+<br>
+<div class="wtf">
+<h class="bh" style="font-family: 'Comic Neue', cursive; letter-spacing: 1.2;width: 270px;"><b>Available|disponibles</b></h>
+<br>
+<br>
+<br>
+<div class="dh" style="font-family: 'Amatic SC', cursive;">
+<h class="lie1">🇩🇪</h>
+<h class="lie2">🇮🇳</h>
+<h class="lie6">🇯🇵</h>
+<h class="lie19">🇹🇳</h>
+<h class="lie4">🇵🇭</h>
+<h class="lie5">🇿🇦</h>
+<br>
+<br>
+<h class="lie1">🇸🇪</h>
+<h class="lie7">🇾🇪</h>
+<h class="lie8">Abdo</h>
+<h class="lie23a">Ali</h>
+<br>
+<br>
+<h class="lie9">All</h>
+<h class="lie12">Balha</h>
+<h class="lie1a">Berlin</h>
+<br>
+<br>
+<h class="lie3">Boulahjar</h>
+<h class="lie13">Bounia</h>
+<h class="lie17">Charri</h>
+<br>
+<br>
+<h class="lie25">Darwin</h>
+<h class="lie26">El Azrak</h>
+<h class="lie1a">Elias</h>
+<br>
+<br>
+<h class="lie4">Elise</h>
+<h class="lie1">Elliot</h>
+<h class="lie14">Farhati</h>
+<br>
+<br>
+<h class="lie15">Fassali</h>
+<h class="lie1">Fitz</h>
+<h class="lie1a">Fitzgerald</h>
+<br>
+<br>
+<h class="lie1">Ilias</h>
+<h class="lie26">Ilyas</h>
+<h class="lie16">Ilyass</h>
+<br>
+<br>
+<h class="lie7">Jaser</h>
+<h class="lie17">Khalid</h>
+<h class="lie2a">Kumar</h>
+<br>
+<br>
+<h class="lie23">Mad Ali</h>
+<h class="lie23">Madani</h>
+<h class="lie16">Namat</h>
+<br>
+<br>
+<h class="lie19">Nesrine</h>
+<h class="lie11">Nifa</h>
+<h class="lie5">Phil</h>
+<br>
+<br>
+<h class="lie2">Pratik</h>
+<h class="lie20">Rashid</h>
+<h class="lie21a">Rayan</h>
+<br>
+<br>
+<h class="lie22">Ryan</h>
+<h class="lie3">Saad</h>
+<h class="lie6a">Safae</h>
+<br>
+<br>
+<h class="lie8">Salouk</h>
+<h class="lie10">Serbouti</h>
+<h class="lie12a">Souhail</h>
+<br>
+<br>
+<h class="lie5a">Southgate</h>
+<h class="lie23">Subaru</h>
+<h class="lie6a">Tokyo</h>
+<br>
+<br>
+<h class="lie9">Tous</h>
+<h class="lie28">Walid</h>
+<h class="lie24a">Wes</h>
+<br>
+<br>
+<h class="lie24">Wesley</h>
+<h class="lie14">Zack</h>
+</div>
+</div>
+<button class="imp" style="font-family: 'Bellota Text', cursive;vertical-align:middle;color: #000000;background-color:#FFFC00;font-size:190%;text-align:center;text-transform: uppercase;" type="button" height="30" width="500" value="submit" id="result" onclick="msg()"><span>Click me</span></button>
+
+  
+  
+  <br>
+  <br>
+  <br>
+<div class="crights" content="device-width">
+<br>
+<a style="font-weight: bold;border: 1px solid white;background: white;border-radius: 8px;padding: 5px;margin-left: 50px; margin-top: 100px;font-family: 'Courier Prime', monospace;" href="codepen.io/Fitzely" content="width=device-width">© codepen.io/Fitzely, 2020</a>
+<br>
+<br>
+<a style="margin: 10px 5px 5px 10px;color: #666666;" href="#C1" class="gt">Back to top ↑</a>
+<a href="/storage/emulated/0/Dcoder/login1.html" style="margin-left: 120px; font-weight: bold;border: 1px solid white;background: white;border-radius: 8px;padding: 5px;">Logout</a>
+<br>
+<br>
+</div>
+
+<script>
+function msg(){
+	var submit=document.getElementById("result").value;
+	var submit=prompt("Write your name here | Ecrivez votre nom ici");
+if(submit == "All"){
+		alert("Thank you for playing this game, see ya in another one soon "+"🎁🎁🎁");
+	 return true;
+		}
+		else if(submit == ""){
+		alert("Write something first | Écrivez quelque chose d'abord");
+		return true;
+	}
+					else if(submit == "all"){
+		alert("Thank you for playing this game, see ya in another one soon "+"🎁🎁🎁");
+		return true;
+	}
+				else if(submit == "Tous"){
+		alert("Merci d'avoir joué à ce jeu, attendez moi dans un autre bientôt! "+"🎁🎁🎁");
+		return true;
+	}
+				else if(submit == "tous"){
+		alert("Merci d'avoir joué à ce jeu, attendez moi dans un autre bientôt! "+"🎁🎁🎁");
+		return true;
+	}
+	else if(submit == "Elias"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "elias"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+				else if(submit == "Fitz"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+				else if(submit == "fitz"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+				else if(submit == "Fitzely"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+				else if(submit == "fitzely"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "🇩🇪"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "Berlin"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "berlin"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "elliot"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "🇸🇪"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "Elliot"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "Fitzgerald"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "fitzgerald"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "Ilias"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "ilias"){
+		alert("I love Cats! "+"😼😼😼😼😼😼😼");
+		return true;
+	}
+	else if(submit == "Ilyass"){
+		alert("Arrête de jouer à Pubg "+"📱📱📱"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "ilyass"){
+		alert("Arrête de jouer à Pubg "+"📱📱📱"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "Namat"){
+		alert("Arrête de jouer à Pubg "+"📱📱📱"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "namat"){
+		alert("Arrête de jouer à Pubg "+"📱📱📱"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "Nifa"){
+		alert("Brofist dickhead"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "nifa"){
+		alert("Brofist dickhead"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "Fassali"){
+		alert("Final Flashhhhhhhh "+"🀄🀄🀄 "+"!!! ");
+		return true;
+	}
+	else if(submit == "fassali"){
+		alert("Final Flashhhhhhhh "+"🀄🀄🀄 "+"!!! ");
+		return true;
+	}
+			else if(submit == "Opiiliz"){
+		alert("Linux started to be better than Widows man "+"💻💻💻");
+	 return true;
+		}
+		else if(submit == "opiiliz"){
+		alert("Linux started to be better than Widows man "+"💻💻💻");
+		return true;
+	}
+		else if(submit == "Serbouti"){
+		alert("Linux started to be better than Widows man "+"💻💻💻");
+		return true;
+	}
+	else if(submit == "serbouti"){
+		alert("Linux started to be better than Widows man "+"💻💻💻");
+		return true;
+	}
+		else if(submit == "Khalid"){
+		alert("Oreoreoreoreoreoreore "+"Jojo "+ "🀄🀄🀄 "+"🌟");
+	 return true;
+		}
+		else if(submit == "khalid"){
+		alert("Oreoreoreoreoreoreore "+"Jojo "+ "🀄🀄🀄 "+"🌟");
+		return true;
+		}
+	else if(submit == "Charri"){
+		alert("Oreoreoreoreoreoreore "+"Jojo "+ "🀄🀄🀄 "+"🌟");
+		return true;
+	}
+	else if(submit == "charri"){
+		alert("Oreoreoreoreoreoreore "+"Jojo "+ "🀄🀄🀄 "+"🌟");
+		return true;
+	}
+	else if(submit == "Zack"){
+		alert("Web programming is as great as hacking "+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "zack"){
+		alert("Web programming is as great as hacking "+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "Farhati"){
+		alert("Web programming is as great as hacking "+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "farhati"){
+		alert("Web programming is as great as hacking "+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "Pratik"){
+		alert("You remember the Algerian 🇩🇿 guy who had a crush on ya?! "+"Hehehe"+" Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "pratik"){
+		alert("You remember the Algerian 🇩🇿 guy who had a crush on ya?! "+"Hehehe"+" Brother of life 🌟");
+		return true;
+	}
+		else if(submit == "🇮🇳"){
+		alert("You remember the Algerian 🇩🇿 guy who had a crush on ya?! "+"Hehehe"+" Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "Kumar"){
+		alert("You remember the Algerian 🇩🇿 guy who had a crush on ya?! "+"Hehehe"+" Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "kumar"){
+		alert("You remember the Algerian 🇩🇿 guy who had a crush on ya?! "+"Hehehe"+" Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "Wesley"){
+		alert("I found that the British ass 🇬🇧 is quite better than the Dutch 🇳🇱 one! "+"Just kidding man! "+"Hahahaha"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "wesley"){
+		alert("I found that the British ass 🇬🇧 is quite better than the Dutch 🇳🇱 one! "+"Just kidding man! "+"Hahahaha"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "Souhail"){
+		alert("Cc nigga! "+"Miss ya brother!"+" Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "souhail"){
+		alert("Cc nigga! "+"Miss ya brother!"+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "Balha"){
+		alert("Cc nigga! "+"Miss ya brother!"+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "balha"){
+		alert("Cc nigga! "+"Miss ya brother!"+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "Ryan"){
+		alert("Hello best friend! "+"🥃🥃🥃 "+"Hahaha"+" Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "ryan"){
+		alert("Hello best friend! "+"🥃🥃🥃 "+"Hahaha"+" Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "Rayan"){
+		alert("Cc, keep playing Dream league 19 until I come at holidays and kick your ass at it!"+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "rayan"){
+		alert("Cc, keep playing Dream league 19 until I come at holidays and kick your ass at it!"+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "Jassar"){
+		alert("You are from the nicest guy I know swear! "+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "jassar"){
+		alert("You are from the nicest guy I know swear! "+"Brother of life 🌟");
+		return true;
+	}
+		else if(submit == "🇾🇪"){
+		alert("You are from the nicest people I know swear! "+"Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "Rashid"){
+		alert("Your engineering 🛩️ is really good man! "+"🇳🇬");
+		return true;
+	}
+	else if(submit == "rashid"){
+		alert("Your engineering 🛩️ is really good man! "+"🇳🇬");
+		return true;
+	}
+	else if(submit == "Elise"){
+		alert("We have the same name, but you don't talk to me much!"+" Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "elise"){
+		alert("We have the same name, but you don't talk to me much!"+" Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "🇵🇭"){
+		alert("We have the same name, but you don't talk to me much!"+" Brother of life 🌟");
+		return true;
+	}
+	else if(submit == "Nesrine"){
+		alert("Hello Nesrine, you see programming is not reaaaaally complicated hhhhhh 🖤");
+		return true;
+	}
+	else if(submit == "nesrine"){
+		alert("Hello Nesrine, you see programming is not reaaaaally complicated hhhhhh 🖤");
+		return true;
+	}
+	else if(submit == "🇹🇳"){
+		alert("Hello Nesrine, you see programming is not reaaaaally complicated hhhhhh 🖤");
+		return true;
+	}
+	else if(submit == "Phil"){
+		alert("Dude, you are going to be a great hacker in the future, continue 💪🏼💪🏼💪🏼 Love ya dude 🖤");
+		return true;
+	}
+		else if(submit == "phil"){
+		alert("Dude, you are going to be a great hacker in the future, continue 💪🏼💪🏼💪🏼 Love ya dude 🖤");
+		return true;
+	}
+		else if(submit == "🇿🇦"){
+		alert("Dude, you are going to be a great hacker in the future, continue 💪🏼💪🏼💪🏼 Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "Southgate"){
+		alert("Dude, you are going to be a great hacker in the future, continue 💪🏼💪🏼💪🏼 Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "southgate"){
+		alert("Dude, you are going to be a great hacker in the future, continue 💪🏼💪🏼💪🏼 Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "Bounia"){
+		alert("Cc Amine hhhh, we need to meet sometime! Brother of life 🌟");
+		return true;
+	}
+		else if(submit == "bounia"){
+		alert("Cc Amine hhhh, we need to meet sometime! Brother of life 🌟");
+		return true;
+	}
+		else if(submit == "Abdo"){
+		alert("Cc, I missed ya man!");
+		return true;
+	}
+	else if(submit == "salouk"){
+		alert("Cc, I missed ya man!");
+		return true;
+	}
+	else if(submit == "Salouk"){
+		alert("Cc, I missed ya man!");
+		return true;
+	}
+	else if(submit == "abdo"){
+		alert("Cc, I missed ya man!");
+		return true;
+	}
+	else if(submit == "Ali"){
+		alert("Ali tell Ghita that you love her 🖤");
+		return true;
+	}
+		else if(submit == "ali"){
+		alert("Ali tell Ghita that you love her 🖤");
+		return true;
+	}
+		else if(submit == "Madani"){
+		alert("Ali tell Ghita that you love her 🖤");
+		return true;
+	}
+		else if(submit == "madani"){
+		alert("Ali tell Ghita that you love her 🖤");
+		return true;
+	}
+	else if(submit == "mad ali"){
+		alert("Ali tell Ghita that you love her 🖤");
+		return true;
+	}
+	else if(submit == "mad Ali"){
+		alert("Ali tell Ghita that you love her 🖤");
+		return true;
+	}
+	else if(submit == "Mad Ali"){
+		alert("Ali tell Ghita that you love her 🖤");
+		return true;
+	}
+	else if(submit == "Mad ali"){
+		alert("Ali tell Ghita that you love her 🖤");
+		return true;
+	}
+	else if(submit == "🇯🇵"){
+		alert("3a9la fach l3ebt contre toi f Sport hhhhhh!");
+		return true;
+	}
+	else if(submit == "Tokyo"){
+		alert("3a9la fach l3ebt contre toi f Sport hhhhhh!");
+		return true;
+	}
+	else if(submit == "tokyo"){
+		alert("3a9la fach l3ebt contre toi f Sport hhhhhh!");
+		return true;
+	}
+	else if(submit == "Safae"){
+		alert("3a9la fach l3ebt contre toi f Sport hhhhhh!");
+		return true;
+	}
+	else if(submit == "safae"){
+		alert("3a9la fach l3ebt contre toi f Sport hhhhhh!");
+		return true;
+	}
+	else if(submit == "Saad"){
+		alert("bruuh, do you remember the sound of the 🐶🐶🐶 hhhh"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "saad"){
+		alert("bruuh, do you remember the sound of the 🐶🐶🐶 hhhh"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "Boulahjar"){
+		alert("bruuh, do you remember the sound of the 🐶🐶🐶 hhhh"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "boulahjar"){
+		alert("bruuh, do you remember the sound of the 🐶🐶🐶 hhhh"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "The father of the stones"){
+		alert("bruuh, do you remember the sound of the 🐶🐶🐶 hhhh"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "the father of the stones"){
+		alert("bruuh, do you remember the sound of the 🐶🐶🐶 hhhh"+" Love ya dude 🖤");
+		return true;
+	}
+	else if(submit == "Darwin"){
+		alert("Bro, do you remember the guy who was walking with Souhail to Bouhtouri every morning and evening and was living next to him, it's me Elias! 🖤");
+		return true;
+	}
+	else if(submit == "darwin"){
+		alert("Bro, do you remember the guy who was walking with Souhail to Bouhtouri every morning and evening and was living next to him, it's me Elias! 🖤");
+		return true;
+	}
+	else if(submit == "Ilyas"){
+		alert("Dima Green! 🖤");
+		return true;
+	}
+	else if(submit == "ilyas"){
+		alert("Dima Green! 🖤");
+		return true;
+	}
+	else if(submit == "El azrak"){
+		alert("Dima Green! 🖤");
+		return true;
+	}
+	else if(submit == "El Azrak"){
+		alert("Dima Green! 🖤");
+		return true;
+	}
+	else if(submit == "el Azrak"){
+		alert("Dima Green! 🖤");
+		return true;
+	}
+	else if(submit == "el azrak"){
+		alert("Dima Green! 🖤");
+		return true;
+	}
+	else{
+	   alert("Please write an available name in the list on the top! | Veuillez écrire un nom disponible dans la liste en haut!");
+		return true;
+		}
+		}
+</script>
+
+
+</body></html>
